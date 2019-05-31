@@ -17,6 +17,6 @@ deploy:
   bucket_path: "docker-react"
   on:
     branch: master
-  access_key_id: $BEANSTALK-ACCESS-KEY
+  access_key_id: $BEANSTALK\-ACCESS\-KEY
   secret_access_key: 
-    secure: "$BEANSTALK-SECRET-KEY"
+    secure: "$BEANSTALK\-SECRET\-KEY"
